@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.container{
+    width:70%;
+    margin:15px auto;
+    padding:15px;
+    border:2px solid black;
+    text-align:center;
+    text-decoration:underline;
+    background-color: #008080;
+    color:#FFF;
+    font-size: 25px;
+    font-weight:600;
+}
+h1{
+    margin-bottom: 15px;
+}
+button{
+    width:100px;
+    height:40px;
+    font-size: 20px;
+}
+.App{
+    background-color:#3498DB;
+    border:2px solid black;
+}
