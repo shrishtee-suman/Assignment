@@ -1,0 +1,91 @@
+$(".pink-shoe-menu").click(function(){
+    $(".pink-shoe-menu").css('color','#fff');
+    $('.anna-field-menu').css('color','#5f5f5f');
+    $(".prada-menu").css('color','#5f5f5f');
+    $('.casadei-menu').css('color','#5f5f5f');
+    $('.mellow-yellow-menu').css('color','#5f5f5f');
+    $('.pink-shoes-container').css('display','block');
+    $('.anna-field-container').css('display','none');
+    $('.prada-item-container').css('display','none');
+    $('.casadei-item-container').css('display','none');
+    $('.mellow-item-container').css('display','none');
+    $('.slider1').css('visibility','visible');
+    $('.slider2').css('visibility','hidden');
+    $('.slider3').css('visibility','hidden');
+    $('.slider4').css('visibility','hidden');
+    $('.slider5').css('visibility','hidden');
+    
+   
+});
+$(".anna-field-menu").click(function(){
+    $(".anna-field-menu").css('color','#fff');
+    $(".pink-shoe-menu").css('color','#5f5f5f');
+    $(".prada-menu").css('color','#5f5f5f');
+    $('.casadei-menu').css('color','#5f5f5f');
+    $('.mellow-yellow-menu').css('color','#5f5f5f');
+    $('.pink-shoes-container').css('display','none');
+    $('.anna-field-container').css('display','block');
+    $('.prada-item-container').css('display','none');
+    $('.casadei-item-container').css('display','none');
+    $('.mellow-item-container').css('display','none');
+    $('.slider1').css('visibility','hidden');
+    $('.slider2').css('visibility','visible');
+    $('.slider3').css('visibility','hidden');
+    $('.slider4').css('visibility','hidden');
+    $('.slider5').css('visibility','hidden');
+
+});
+$('.prada-menu').click(function(){
+    $(".prada-menu").css('color','#fff');
+    $('.pink-shoe-menu').css('color','#5f5f5f');
+    $('.anna-field-menu').css('color','#5f5f5f');
+    $('.casadei-menu').css('color','#5f5f5f');
+    $('.mellow-yellow-menu').css('color','#5f5f5f');
+    $('.pink-shoes-container').css('display','none');
+    $('.anna-field-container').css('display','none');
+    $('.casadei-item-container').css('display','none');
+    $('.mellow-item-container').css('display','none');
+    $('.prada-item-container').css('display','block');
+    $('.slider1').css('visibility','hidden');
+    $('.slider2').css('visibility','hidden');
+    $('.slider3').css('visibility','visible');
+    $('.slider4').css('visibility','hidden');
+    $('.slider5').css('visibility','hidden');
+});
+$('.casadei-menu').click(function(){
+    $('.casadei-menu').css('color','#fff');
+    $('.pink-shoe-menu').css('color','#5f5f5f');
+    $('.anna-field-menu').css('color','#5f5f5f');
+    $(".prada-menu").css('color','#5f5f5f');
+    $(".mellow-yellow-menu").css('color','#5f5f5f');
+    $('.casadei-item-container').css('display','block');
+    $('.pink-shoes-container').css('display','none');
+    $('.anna-field-container').css('display','none');
+    $('.prada-item-container').css('display','none');
+    $('.mellow-item-container').css('display','none');
+    $('.slider1').css('visibility','hidden');
+    $('.slider2').css('visibility','hidden');
+    $('.slider3').css('visibility','hidden');
+    $('.slider4').css('visibility','visible');
+    $('.slider5').css('visibility','hidden');
+       
+});
+$('.mellow-yellow-menu').click(function(){
+    $('.mellow-yellow-menu').css('color','#fff');
+    $('.pink-shoe-menu').css('color','#5f5f5f');
+    $('.anna-field-menu').css('color','#5f5f5f');
+    $(".prada-menu").css('color','#5f5f5f');
+    $('.casadei-menu').css('color','#5f5f5f');
+    $('.mellow-item-container').css('display','block');
+    $('.pink-shoes-container').css('display','none');
+    $('.anna-field-container').css('display','none');
+    $('.prada-item-container').css('display','none');
+    $('.casadei-item-container').css('display','none');
+    $('.slider1').css('visibility','hidden');
+    $('.slider2').css('visibility','hidden');
+    $('.slider3').css('visibility','hidden');
+    $('.slider4').css('visibility','hidden');
+    $('.slider5').css('visibility','visible');
+ 
+});
+
